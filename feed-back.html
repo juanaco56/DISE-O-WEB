@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>FEEDBACK - Panadería Zamora</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/feed-back.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-md navbar-custom border-top border-bottom">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="img/logo.png" class="logo" alt="LOGO">
+                </a>
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menuNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="menuNav">
+                    <ul class="navbar-nav gap-md-4 text-center">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Página principal</a></li>
+                        <li class="nav-item"><a class="nav-link" href="productos.html">Productos</a></li>
+                        <li class="nav-item"><a class="nav-link active-page" href="feed-back.html">Feed-back</a></li>
+                        <li class="nav-item"><a class="nav-link" href="sobrenosotros.html">Sobre nosotros</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <section class="container my-5">
+            <div class="d-flex gap-4 overflow-auto reseñas-scroll pb-3">
+                <div class="card reseña-card">
+                    <div class="card-body text-center">
+                        <h5>Antonio Rodriguez Blaya</h5>
+                        <div class="estrellas">★★★★☆</div>
+                        <p>Me encanta su panadería. Iba siempre en los descansos cuando hacía las prácticas en el Ayuntamiento de Mazarrón.</p>
+                    </div>
+                </div>
+                <div class="card reseña-card">
+                    <div class="card-body text-center">
+                        <h5>Pablo Valero Tartajas</h5>
+                        <div class="estrellas">★★★★★</div>
+                        <p>¡Es una panadería increíble! Compro cosas para comérmelas de madrugada y siguen pareciendo recién hechas.</p>
+                    </div>
+                </div>
+                <div class="card reseña-card">
+                    <div class="card-body text-center">
+                        <h5>Juan Carlos Gea Alias</h5>
+                        <div class="estrellas">★☆☆☆☆</div>
+                        <p>El pan tiene buena pinta, pero me recuerda a una panadería en Vera… y no me gusta Vera. De hecho, ni he ido a la pandería, pero odio Vera. VIVA GARRUCHA </p>
+                    </div>
+                </div>
+                <div class="card reseña-card">
+                    <div class="card-body text-center">
+                        <h5>Iker Ríos Navarro</h5>
+                        <div class="estrellas">★★★★☆</div>
+                        <p>Vendo IPTVS, camisetas de futbol (actuales y retro), vendo entradas para ver al Real Madrid. No dudes en hablarme. La panderia muy rica</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container my-5">
+            <div class="formulario-container mx-auto">
+                <form class="formulario">
+                    <h3 class="text-center mb-4">¡DÉJANOS TU RESEÑA!</h3>
+                    <div class="mb-3">
+                        <label class="form-label">Tu nombre</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Estrellas</label>
+                        <div class="estrellas">☆☆☆☆☆</div>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Reseña</label>
+                        <textarea class="form-control" rows="3"></textarea>
+                    </div>
+                    <button class="btn btn-enviar w-100">Enviar reseña</button>
+                </form>
+                <div class="rrss-section mt-4">
+                    <h3>¡DÉJANOS TAMBIÉN TU COMENTARIO EN RRSS!</h3>
+                    <ul>
+                        <li>Instagram: @panaderia.zamora3</li>
+                        <li>X: @panaderia.zamora32</li>
+                        <li>Facebook: Panadería Zamora 3</li>
+                        <li>TikTok: @PanaderiaZamora33</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <div class="footer">
+            <footer class="container">
+                <div class="row text-center text-md-start">
+                    <div class="col-md-4 footer-bloque">
+                        <h4>CONTACTO</h4>
+                        <p>Email: panaderia.zamora3@gmail.com</p>
+                        <p>Teléfono: 612 345 678</p>
+                    </div>
+                    <div class="col-md-4 footer-bloque">
+                        <h4>DIRECCIÓN</h4>
+                        <p>East blue, Longue Town</p>
+                        <p>Calle Gold D. Roger Nº69</p>
+                    </div>
+                    <div class="col-md-4 footer-bloque">
+                        <h4>HORARIO</h4>
+                        <p>Lun - Vie: 08:00 a 20:00</p>
+                        <p>Sáb - Dom y Festivos: 07:00 a 21:00</p>
+                    </div>
+                </div>
+                <div class="footer-redes">
+                <p>SÍGUENOS EN NUESTRAS REDES SOCIALES:</p>
+                <div class="redes-sociales">
+                    <a href=""><img src="img/instagram-logo.png" class="icono-red-social"></a>
+                    <a href=""><img src="img/x-logo.png" class="icono-red-social"></a>
+                    <a href=""><img src="img/facebook-logo.png" class="icono-red-social"></a>
+                </div>
+            </footer>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
