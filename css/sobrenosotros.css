@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-image: url('/img/fondo.png');
+    background-repeat: repeat;
+    background-size: 300px 300px;
+    color: #A52A2A;
+}
+
+/* NAV */
+.nav-zamora {
+    background-color: #FFFFAE;
+    border-top: 2px solid #A52A2A;
+    border-bottom: 2px solid #A52A2A;
+}
+
+.logo {
+    height: 120px;
+    filter: brightness(0.65);
+    transition: transform 0.3s;
+}
+
+.logo:hover {
+    transform: scale(1.05);
+}
+
+.nav-link {
+    color: #A52A2A;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.active-page {
+    background-color: #A52A2A;
+    color: #FFFFAE !important;
+    border-radius: 5px;
+}
+
+.imagen-card {
+    background-color: #FFFFAE;
+    border: 3px solid #A52A2A;
+    border-radius: 12px;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+    text-align: center;
+}
+
+.imagen-card img {
+    height: 250px;
+    object-fit: cover;
+}
+
+.imagen-card p {
+    font-family: 'Merriweather', serif;
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+.footer {
+    background-color: #FFFFAE;
+    border-top: 2px solid #A52A2A;
+    padding: 30px 0;
+}
+
+.footer-bloque h4 {
+    border-bottom: 2px solid #A52A2A;
+    padding-bottom: 5px;
+}
+
+.footer-redes {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.icono-red-social {
+    width: 32px;
+    transition: 0.2s;
+}
+
+.icono-red-social:hover {
+    transform: scale(1.1);
+}
+
