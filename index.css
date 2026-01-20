@@ -1,0 +1,31 @@
+:root {
+  --rojo-panaderia: #8B1E1E;
+  --marron-claro: #cd995d;
+}
+
+.bg-rojo {
+  background-color: var(--rojo-panaderia);
+}
+
+.bg-marron {
+  background-color: var(--marron-claro);
+}
+
+.btn-rojo {
+  background-color: var(--rojo-panaderia);
+  color: white;
+}
+
+.btn-rojo:hover {
+  background-color: #6e1515;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+}
+
+.card img {
+  height: 230px;
+  object-fit: cover;
+}
